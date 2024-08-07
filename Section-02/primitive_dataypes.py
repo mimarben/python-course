@@ -1,0 +1,5 @@
+print(len("121212"))
+print("Hello, world!"[0])
+print("Hello, world!"[-1])
+print(1.345)
+print(True)
