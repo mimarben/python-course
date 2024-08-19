@@ -9,3 +9,7 @@ https://github.com/angelabauer/web-development-bootcamp
 
 
 [ASCII TITLES](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+
+
+[Resources of the course](https://github.com/mschwarzmueller/angular-complete-guide-course-resources)
+
