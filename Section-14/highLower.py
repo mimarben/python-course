@@ -17,11 +17,16 @@ options = get_random_data()
 print(logo)
 print(f"Compare A: {options[0]['name']}, a {options[0]['description']} from {options[0]['country']}")
 print(vs)
-print(f"Compare A: {options[1]['name']}, a {options[1]['description']} from {options[1]['country']}")
+print(f"Compare B: {options[1]['name']}, a {options[1]['description']} from {options[1]['country']}")
 answer = input("Who has more followers? Type 'A' or 'B': ")
 
 if answer.lower() == 'a':
     if options[0]['follower_account'] > options[1]['follower_account']:
-        print(f"You are correct! {options[0]['name']} has {options[0]['follower_account']} followers.")
+        print(f"You are correct! {options[0]['name']} has {options[0]['follower_account']} followers and {options[1]['name']} has {options[1]['follower_account']} followers.")
     else:
-        print(f"Sorry, that's wrong! {options[1]['name']} has {options[1]['follower_account']} followers.")
+        print(f"Sorry, that's wrong! {options[1]['name']} has {options[1]['follower_account']} followers and {options[0]['name']} has {options[0]['follower_account']}.")
+elif answer.lower() == 'b':
+    if options[1]['follower_account'] > options[0]['follower_account']:
+        print(f"You are correct! {options[1]['name']} has {options[1]['follower_account']} followers and {options[0]['name']} has {options[0]['follower_account']} followers.")
+    else:
+        print(f"You are correct! {options[0]['name']} has {options[0]['follower_account']} followers and {options[1]['name']} has {options[1]['follower_account']} followers.")
