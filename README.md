@@ -19,3 +19,6 @@ To view all the exmaples:
 Install pycharm community with flatpak.
 
 [Add learning themes](https://www.udemy.com/course/100-days-of-code/learn/lecture/45090307#overview)
+
+
+[Code](https://replit.com/@appbrewery)
