@@ -1,0 +1,1 @@
+[Trivial DataBase](https://opentdb.com/api_config.php)
