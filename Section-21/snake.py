@@ -13,6 +13,10 @@ class Snake:
     def create_snake(self):
         for position in constants.STARTING_POSITIONS:
             self.add_segment(position)
+    '''
+    https://www.udemy.com/course/100-days-of-code/learn/lecture/20356939#overview
+    Minute: 11 explaination of the snake movement in this function.
+    '''
     def move(self):
         for snake_num in range(len(self.snakes)-1, 0, -1):
             cord_x= self.snakes[snake_num-1].xcor()
