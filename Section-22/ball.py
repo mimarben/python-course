@@ -1,6 +1,6 @@
 from turtle import Turtle
 import constants
-
+import time
 class Ball(Turtle):
     def __init__(self):
         super().__init__()
@@ -10,17 +10,18 @@ class Ball(Turtle):
         self.goto(0, 0)
         self.dx = constants.BALL_X_POS
         self.dy = constants.BALL_Y_POS
-        
+        self.move_speed = 0.1
     def move(self):
         new_x = self.xcor() + self.dx
-        new_y = self.ycor() + self.dy
-        
-        if (new_x < -constants.SCREEN_LIMIT_WIDTH or new_x > constants.SCREEN_LIMIT_WIDTH):
-            print(f"Before x: {self.dx}")
-            self.dx *= -1
-            print(f"After x: {self.dx}")
-        if (new_y < -constants.SCREEN_LIMIT_HEIGHT or new_y > constants.SCREEN_LIMIT_HEIGHT):
-            print(f"Before y: {self.dy}")
-            self.dy *= -1
-            print(f"After y: {self.dy}")
+        new_y = self.ycor() + self.dy        
         self.goto(new_x, new_y)
+    def bounce_y(self):
+         self.dy *= -1
+    def bounce_x(self):
+         self.dx *= -1
+         self.move_speed *= 0.9
+
+    def reset_position(self):
+        self.goto(0, 0)
+        self.move_speed = 0.1       
+        self.bounce_x()
