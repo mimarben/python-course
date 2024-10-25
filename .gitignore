@@ -116,7 +116,7 @@ venv/
 *.sublime-workspace
 *.tmproj
 .vscode/
-*.code-workspace
+# *.code-workspace
 
 # Virtual environment
 env/
