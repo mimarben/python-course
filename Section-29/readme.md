@@ -1,0 +1,5 @@
+[Canvas tkinter](https://tkdocs.com/tutorial/canvas.html)
+[Python File Write](https://www.w3schools.com/python/python_file_write.asp)
+[Entry](https://tkdocs.com/tutorial/widgets.html#entry)
+[string join](https://www.w3schools.com/python/ref_string_join.asp)
+[Paperclip](https://pypi.org/project/pyperclip/)
