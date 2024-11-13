@@ -1,0 +1,6 @@
+[GOOGLETRANSLATE](https://support.google.com/docs/answer/3093331?hl=en-GB)
+[Language support](https://cloud.google.com/translate/docs/languages?hl=en)
+[ai.OpenSubtitles.com](https://www.opensubtitles.org/en/search/subs)
+[Google Sheets](https://workspace.google.com/products/sheets/)
+[Frequency of words](https://github.com/hermitdave/FrequencyWords/tree/master/content/2018)
+[Wiktionary:Frequency lists](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists)
