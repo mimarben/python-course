@@ -4,9 +4,9 @@ import smtplib
 import time
 
 MY_EMAIL = "mimarben@gmail.com"
-MY_PASSWORD = "qriwejxkspwrfcuk"
-MY_LAT=41.639093001050504
-MY_LONG= -4.743937266586598
+MY_PASSWORD = ""
+MY_LAT = 41.639093001050504
+MY_LONG = -4.743937266586598
 
 
 def is_iss_overhead():
