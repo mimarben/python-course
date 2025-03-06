@@ -26,5 +26,15 @@
 			"titleBar.inactiveForeground": "#e7e7e799"
 		},
 		"peacock.color": "#306998"
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "chrome",
+				"name": "http://127.0.0.1:3000/Section-43/5.3 CSS Selectors/solution/solution.html",
+				"request": "launch",
+				"url": "http://127.0.0.1:3000/Section-43/5.3 CSS Selectors/solution/solution.html"
+			}
+		]
 	}
 }
