@@ -24,6 +24,6 @@ def say_greet(name):
     print(f"Greetings, {name}!")
 
 say_hello("miguel")
-
-decor_func= decorator_function(say_greet)("Maria")
-print(decor_func)
+print("--------------------")
+decor_func= decorator_function(say_greet)
+decor_func("Maria")
