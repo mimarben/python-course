@@ -1,0 +1,5 @@
+[Encription page](https://cryptii.com/)
+[plaintextoffenders](https://plaintextoffenders.com/)
+[https://haveibeenpwned.com/Passwords](https://haveibeenpwned.com/Passwords)
+[https://en.wikipedia.org/wiki/List_of_the_most_common_passwords](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords)
+[http://password-checker.online-domain-tools.com/](http://password-checker.online-domain-tools.com/)
