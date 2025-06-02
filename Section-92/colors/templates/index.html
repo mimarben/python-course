@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Analyzer</title>
+    <style>
+        .color-box {
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+            margin: 5px;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload an Image to Find Common Colors</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if uploaded_file %}
+        <h2>Uploaded Image:</h2>
+        <img src="{{ url_for('static', filename='uploads/' ~ uploaded_file) }}" width="300">
+    {% endif %}
+
+    {% if colors %}
+        <h2>Top Colors:</h2>
+        {% for color, count in colors %}
+            <div class="color-box" style="background-color: rgb{{ color }}"></div>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

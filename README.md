@@ -22,3 +22,8 @@ Install pycharm community with flatpak.
 
 
 [Code](https://replit.com/@appbrewery)
+
+
+ python -m pip freeze > requirements.txt  
+ 
+ 
