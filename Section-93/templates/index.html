@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NBA Player Stats</title>
+</head>
+<body>
+    <h1>Top NBA Players (Stats)</h1>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th>Age</th>
+            <th>Points</th>
+            <th>Assists</th>
+            <th>Rebounds</th>
+        </tr>
+        {% for player in stats %}
+        <tr>
+            <td>{{ player.rank }}</td>
+            <td>{{ player.player }}</td>
+            <td>{{ player.team }}</td>
+            <td>{{ player.age }}</td>
+            <td>{{ player.points }}</td>
+            <td>{{ player.assists }}</td>
+            <td>{{ player.total_rebounds }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
