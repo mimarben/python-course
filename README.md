@@ -26,4 +26,16 @@ Install pycharm community with flatpak.
 
  python -m pip freeze > requirements.txt  
  
+ Create a virtual enviroment with uv
  
+ ```bash
+ uv venv devel --python 3.13
+ ```
+ 
+ activate
+
+ ```bash
+ source devel/bin/activate
+```
+
+[UV](https://github.com/astral-sh/uv)
