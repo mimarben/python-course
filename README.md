@@ -29,7 +29,7 @@ Install pycharm community with flatpak.
  Create a virtual enviroment with uv
  
  ```bash
- uv venv devel --python 3.13
+ uv venv devel --python 3.13 --seed
  ```
  
  activate
