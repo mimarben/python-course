@@ -37,5 +37,11 @@ Install pycharm community with flatpak.
  ```bash
  source devel/bin/activate
 ```
+instala desde el pyporject.toml
 
+````
+uv pip install .
+uv sync
+uv add pip --active 
+````
 [UV](https://github.com/astral-sh/uv)
